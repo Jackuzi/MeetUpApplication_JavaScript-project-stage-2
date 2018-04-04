@@ -1,0 +1,184 @@
+@charset "utf-8";
+.container {
+	float: left;
+	position: relative;
+	margin-left: 10%;
+	width: 150%;
+	margin-right: 10%;
+	padding-right: 100px;
+	min-width: 120%;
+}
+body {
+	background-image: url(images/elegant-wallpaper-2560x1600.jpg);
+	color: #FFFFFF;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.container .col1 {
+	float: left;
+	position: relative;
+	margin-top: 60px;
+	margin-right: 10px;
+	
+	box-shadow: 0px 0px;
+}
+section .email #email {
+	margin-left: 11px;
+}
+.container .col1 .tableDesign {
+	width: 200px;
+	
+	position: relative;
+}
+tbody tr th {
+	color: #E0ED0E;
+	border: medium solid #0E5D7A;
+	border-radius: 20px;
+	width: 130px;
+	min-width: 130px;
+	min-height: 130px;
+}
+tbody tr td {
+	border-collapse: collapse;
+}
+.container li {
+	position: relative;
+	display: inline;
+	width: 100px;
+	margin-right: 20px;
+	margin-top: 70px;
+	float: left;
+}
+.container .col1 #show {
+	margin-top: 0px;
+}
+section .submit input {
+	margin-left: 100px;
+}
+.buttons {
+	background-color: #99BBCF;
+	border-radius: 10px;
+}
+.container li #friendsShow {
+	margin-bottom: 20px;
+}
+.container li #OtherShow {
+	margin-bottom: 20px;
+}
+.container li #BusinessShow {
+	margin-bottom: 20px;
+}
+section p #textarea {
+	background-color: #D4D4D4;
+	border-radius: 12px;
+	width: 500px;
+	height: 150px;
+	min-width: 500px;
+	min-height: 150px;
+	max-width: 500px;
+	max-height: 150px;
+	display: block;
+}
+.container .col2 {
+	float: left;
+	margin-left: 40px;
+	margin-top: 20px;
+}
+.container .Right {
+	float: left;
+	position: relative;
+	margin-top: 100px;
+	margin-right: 30px;
+}
+.hidden {
+	display: none;
+}
+.tickAll {
+	border: thin inset #4C759C;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	min-width: 40px;
+	max-width: 40px;
+}
+.container .app.title {
+	text-align: center;
+	display: inline;
+	position: relative;
+	margin-left: 150px;
+}
+.counterClass {
+	float: right;
+	margin-top: -5px;
+	color: #ECF062;
+	font-size: small;
+}
+.textareaClass {
+	font-size: large;
+	color: #293B00;
+}
+.deleteButton {
+	background-color: #9B5E5F;
+	color: #F4EE4A;
+	border-radius: 12px;
+	margin-bottom: 15px;
+}
+.lolol {
+}
+.CopyButton {
+	background-color: #29B00F;
+	border-radius: 12px;
+	margin-bottom: 12px;
+	color: #FFFFFF;
+}
+.container .col2 #form1 section .middle {
+	display: inline;
+	color: #EC080C;
+}
+.inSubject {
+	margin-left: 8px;
+}
+.SendTo {
+	margin-left: 15px;
+}
+#blah .email #button {
+	background-color: #009711;
+	color: #F8F8F8;
+}
+section .submit #send {
+	background-color: #07AC00;
+	color: #FFFFFF;
+	font-style: italic;
+	width: 50px;
+}
+section .submit #reset {
+	background-color: #9F0002;
+	color: #FFFFFF;
+	font-style: italic;
+	width: 50px;
+}
+.emailCount {
+	color: #ECF062;
+	font-size: small;
+}
+.cells:hover{
+	background: #333;
+	background: rgba(0,0,0,.8);
+	border-radius: 5px;
+	color: #fff;
+	overflow: visible;
+    text-overflow:clip;
+	padding: 5px ;
+	position: fixed;
+	z-index: 98;
+	width: auto;
+ }
+.cells {
+	width: 150px;
+	height: auto;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: relative;
+	display: inline-block;
+}
+
